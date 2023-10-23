@@ -1,0 +1,96 @@
+p{
+    width: 49%;
+    background-color: #686161;
+    display: inline-block;
+    text-align: justify;
+    /* alinhamentos */
+    vertical-align: text-top;
+    /* alinhamento na vertical  */
+    /* text-decoration; */
+    /* sublinhados taxados etc  */
+    box-shadow: #1a1819 15px 15px 10px;
+    color: #ffffff
+}
+
+    a{
+        background-color: rgb(139, 127, 151);
+        width:24% ;
+        display:inline-block;
+        border: inset 4px #eeea0d;
+        font-weight: bold;
+        background-color: aqua;
+        text-decoration:none
+        /* esse none fica sem no caso o link ficou sem sublinhado */
+    }
+
+    body{
+        background-color: #918b8b;
+        
+    }
+    
+    h1{
+        text-align: center;
+        text-decoration: overline underline #bea2c0;
+        text-shadow: #1a1819 2px 3px 3px, 2px 3px 5px #eeea0d;
+        font-size: 4em;
+    }
+
+    h2{
+        text-transform: uppercase;
+        font-family: "times new roman", tahoma;
+        /* eu posso digitar varias fontes para ele procurar se está no pc da pessoa, e posso colocar a familial qualquer coisa  */
+        /* as 2 principais familias são serif e sans-serif */
+    }
+
+    
+/* * significa tudo */
+
+*{
+    background-color: #bea2c0 ;
+}
+
+/* posso criar um seletor e dar um nome e tornar uma classe */
+
+/* .seletorespecial{
+    border: dashed 5px #bdb112
+} */
+/* assim eu posso criar um seletor e dentro do html eu vinculo a esse nome com class */
+
+/* .tati{
+    text-shadow: #1a1819 40px;
+    color: #eeea0d; */
+
+
+#teste{
+    font-size: 1.25em;
+}
+/* # seletor com # eu posso invocar so uma vez */
+
+/* posso também fazer por virgula no que eu quero que fique igual */
+h1,h2{
+    /* e aplica o que eu quero que seja igual para esses dois campos  */
+}
+
+.seletorespecial,.tati{
+    /* também posso fazer o que for igual para seletores usando a virgula, mas nunca esquecendo do ponto  */
+}
+
+/* quando eu uso o espaco ex */
+h1 a{
+    /* eu vou estilizar os a que estão dentro de h1, o espaço quer dizer contém  */
+}
+
+a:visited{
+    /* link visitado e aqui eu insiro a cor que fica  */
+}
+
+a:hover{
+    /* aqui eu coloco quando passa o mouse  */
+    /* color: #1a1819; */
+}
+
+img{
+    float: right;
+    width: 200px;
+    /* float faz a imagem ficar flutuante entre o texto  */
+}
